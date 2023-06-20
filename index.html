@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Page Title</title>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" referrerpolicy="no-referrer"/>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="{{asset('css\homePage.css')}}"> -->
+</head>
+<body>
+	<main class="main">
+		<div class="nav">
+			<ul class="navUl">
+				<li class="navListItem"><a href="#profile">Profile</a></li>
+				<li class="navListItem"><a href="#project1">Project 1</a></li>
+				<li class="navListItem"><a href="#project2">Project 2</a></li>
+				<li class="navListItem"><a href="#project3">Project 3</a></li>
+				<li class="navListItem"><a href="#contacts">Contacts</a></li>
+			</ul>
+			<div class="hamburger">
+				<div class="hamburgerStick hamburgerStickTop"></div>
+				<div class="hamburgerStick hamburgerStickMiddle"></div>
+				<div class="hamburgerStick hamburgerStickBottom"></div>
+			</div>
+			<div class="hamburgerBg">
+				<ul class="navRespUl">
+					<li class="navRespUlLi"><a href="">Profile</a></li>
+					<li class="navRespUlLi"><a href="#profileInfo">Profile Info</a></li>
+					<li class="navRespUlLi"><a href="#project1">Project 1</a></li>
+					<li class="navRespUlLi"><a href="#project2">Project 2</a></li>
+					<li class="navRespUlLi"><a href="#project3">Project 2</a></li>
+					<li class="navRespUlLi"><a href="#contacts">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+	<!-- Profile Photo -->
+		<div class="section1" id="profile">
+			<div class="photoSide">
+				<div class="myPhoto"><img src="myPhoto.jpg"></div>
+				<div class="name">
+					<h4 class="firstName">Povilas Vitkauskas</h4>
+					<h4 class="lastName">Entry Level Web Developer</h4>
+				</div>
+			</div>
+	<!-- Accrdion Section -->
+			<div class="accordionSide" id="profileInfo">
+				<h3 class="accordionHideH3">Little Bit About Me</h3>
+				<div class="accordionItem" id="accordionElement">
+					<h3>About Me</h3>
+					<span><i class="fa-solid fa-chevron-left accordionArrow"></i></span>
+				</div>					
+				<div class="accordionHide">
+					<div class="accordionP accordionPAbout">
+						<p>Gimimo metai: 1983 05 29</p>
+						<p>Gimimo vieta: Alytus</p>
+						<p>Gyvenamoji vieta: Vilnius</p>
+					</div>
+				</div>
+				<div class="accordionItem" id="accordionElement">
+					<h3>Language</h3>
+					<span><i class="fa-solid fa-chevron-left accordionArrow"></i></span>
+				</div>					
+				<div class="accordionHide">
+					<div class="accordionP accordionPLang">
+						<div class="tableColumn">
+							<p class="hidden accordionLangMargin">0</p>
+							<p>Speaking</p>
+							<p>Reading</p>
+							<p>Writing</p>
+						</div>
+						<div class="tableColumn">
+							<p class="accordionLangMargin">Lietuvių</p>
+							<p class="align">C1</p>
+							<p class="align">C1</p>
+							<p class="align">C1</p>
+						</div>
+						<div class="tableColumn">
+							<p class="accordionLangMargin">Anglų</p>
+							<p class="align">B1</p>
+							<p class="align">B1</p>
+							<p class="align">B1</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordionItem" id="accordionElement">
+					<h3>Programming and Coding</h3>
+					<span><i class="fa-solid fa-chevron-left accordionArrow"></i></span>
+				</div>				
+				<div class="accordionHide"> 
+					<div class="accordionP">PHP Laravel, HTML, CSS, Javascript</div>
+				</div>
+				<div class="accordionItem" id="accordionElement">
+					<h3>Work</h3>
+					<span><i class="fa-solid fa-chevron-left accordionArrow"></i></span>
+				</div>					
+				<div class="accordionHide">
+					<div class="accordionP accordionPAbout">
+						<div>
+							<p>2003 - 2011</p>
+							<p>UAB MAXIMA, Prekių kokybės ir kainų kontrolierius</p>
+						</div>
+						<div>
+							<p>2011 - 2020</p>
+							<p>Henrik Bjerre, ferma Danijoje</p>
+						</div>
+						<div>
+							<p>2020 -</p>
+							<p>UAB Aiventus, gamybos operatorius</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordionItem" id="accordionElement">
+					<h3>Contacts</h3>
+					<span><i class="fa-solid fa-chevron-left accordionArrow"></i></span>
+				</div>					
+				<div class="accordionHide">
+					<div class="accordionP AccordionC">
+						<div class='accordionContacts'>
+							<div class="phoneEmail">
+								<i class="fa-solid fa-phone"></i>
+								<p>+37065528918</p>
+							</div>
+							<div class="phoneEmail">
+								<i class="fa-solid fa-envelope"></i>
+								<p>povilasvitkauskass@gmail.com</p>
+							</div>
+						</div>
+						<div class="acorrdionContackU">
+							<a href="https://www.facebook.com/povilas.vitkauskas/"><i class="fa-brands fa-facebook"></i></a>
+							<a href="https://www.instagram.com/povilasvitkauskas/"><i class="fa-brands fa-square-instagram"></i></a>
+							<a href="https://github.com/povilasvit"><i class="fa-brands fa-github"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- Projects Section -->
+		<div class="section2">
+			<div class="project" id="project1">
+				<div class="projectImage">
+					<img src="todo.png">
+				</div>
+				<div class="info">
+					<div class="text">
+						<div class="h3"><h3 id="projectH3">Laravel ToDo List With Javascript</h3></div>
+						<p>ToDo List web application developed using PHP framework Laravel, HTML, CSS (buttons animation - hover.css), and Javascript. You can check how it works on Demo page. Full description and source code lives in Github.</p>
+					</div>
+					<div class="btns" id="project1Btns">
+						<a href="https://pvit.space/todo/">
+							<span class="btnIconSpan"><i class="fa-solid fa-circle-right"></i></span>
+							<p>Demo Page</p>
+						</a>
+						<a href="https://github.com/povilasvit/Laravel-ToDo-List-with-Javascript">
+							<i class="fa-brands fa-github"></i>
+							<p>GitHub</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="project" id="project2">
+				<div class="projectImage">
+					<img src="eshop.png">
+				</div>
+				<div class="info">
+					<div class="text">
+						<div class="h3"><h3 class="project2H3">Laravel Eshop Demo Page</h3></div>
+						<p>Laravel Eshop Demo page with integrated payment gateway system Stripe, which is working in TEST MODE. Admin page you can enter with login: demo@demo.lt and password: demodemo</p>
+					</div>
+					<div class="btns">
+						<a href="https://pvit.info/">
+							<i class="fa-solid fa-circle-right"></i>
+							<p>Demo Page</p>
+						</a>
+						<a href="https://pvit.info/login/">
+							<i class="fa-solid fa-lock"></i>
+							<p>Demo Admin Page</p>
+						</a>
+						<a href="https://github.com/povilasvit/demo-E-shop">
+							<i class="fa-brands fa-github"></i>
+							<p>GitHub</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="project" id="project3">
+				<div class="projectImage">
+					<img src="profile.png">
+				</div>
+				<div class="info">
+					<div class="text">
+						<div class="h3"><h3 id="projectH3">Personal Web Page</h3></div>
+						<p>Personal web page created with HTML, CSS, and Javascript with GSAP. Full source code on GitHub.</p>
+					</div>
+					<div class="btns">
+						<a href="">
+							<i class="fa-brands fa-github"></i>
+							<p>GitHub</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</main>
+	<footer class="footer" id="contacts">
+		<div class="footerWrapper">
+			<div class='footerPhoneEmailDiv'>
+				<div class="footerPhoneEmail">
+					<i class="fa-solid fa-phone"></i>
+					<p>+37065528918</p>
+				</div>
+				<div class="footerPhoneEmail">
+					<i class="fa-solid fa-envelope"></i>
+					<p>povilasvitkauskass@gmail.com</p>
+				</div>
+			</div>
+			<div class="footerSocialMedia">
+				<a href="https://www.facebook.com/povilas.vitkauskas/"><i class="footerItag fa-brands fa-facebook"></i></a>
+				<a href="https://www.instagram.com/povilasvitkauskas/"><i class="footerItag fa-brands fa-square-instagram"></i></a>
+				<a href="https://github.com/povilasvit"><i class="footerItag fa-brands fa-github"></i></a>
+			</div>
+		</div>
+		<div class="copy">2023 Copyright</div>		
+	</footer>
+	<!-- GSAP -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+
+
+	<script src="javascript.js"></script>
+</body>
+</html>
